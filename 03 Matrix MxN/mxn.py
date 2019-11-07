@@ -16,7 +16,7 @@ for i in range (0, baris):
 
 print(mat)
 
-def Rearrange(mat):
+def main(mat):
     neg_count = list(filter(lambda x: x < 0, [mat[j][i]] ))
     pos_count = list(filter(lambda x: x >= 0, [mat[j][i]] ))
     print("Positive : ", pos_count)
@@ -24,4 +24,4 @@ def Rearrange(mat):
 
 
 if __name__ == "__main__":
-    Rearrange(mat)
+    main(mat)
